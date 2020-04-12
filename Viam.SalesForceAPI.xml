@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Viam.SalesForceAPI</name>
+    </assembly>
+    <members>
+        <member name="M:Viam.SalesForceAPI.Controllers.Locations.LocationController.#ctor(Microsoft.Extensions.Options.IOptions{Viam.SalesForceAPI.Model.Configuration.ConfigurationModel})">
+            <summary>
+            Constructor
+            </summary>
+            <param name="configuration">configuration object</param>
+        </member>
+        <member name="M:Viam.SalesForceAPI.Controllers.Locations.LocationController.getResumeData(System.String,System.String,System.Int32)">
+            <summary>
+            Get resume data method
+            </summary>
+            <param name="idLocation">Code of location</param>
+            <param name="idSalesRep">Identification of sales representative</param>
+            <param name="measure">Values: 0 for all and 1 for only changes</param>
+            <returns>List of resume data</returns>
+        </member>
+        <member name="M:Viam.SalesForceAPI.Data.Locations.LocationRepository.getResumeData(System.String,System.String,System.Int32)">
+            <summary>
+            Get resume data
+            </summary>
+            <param name="idLocation">Location code</param>
+            <param name="idSalesRep">Sales representative code</param>
+            <param name="dateUpdate">Date update</param>
+            <returns></returns>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.idLocation">
+            <summary>
+            Location Code
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.dso">
+            <summary>
+            Dso value
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.currentPastDue">
+            <summary>
+            Current past due
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgDaysZeroBalance">
+            <summary>
+            Average of days in zero balance
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.dateLastInactivation">
+            <summary>
+            Date of last inactivation
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.inactivationsCount">
+            <summary>
+            Number of inactivations 
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgDaysInactive">
+            <summary>
+            Average of days inactive
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.meanDaysInactive">
+            <summary>
+            Mean days inactive
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.dateIsViacheck">
+            <summary>
+            Date from viacheck activated product
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.mtdCountViacheck">
+            <summary>
+            Month to day value for viacheck transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgCountViacheck">
+            <summary>
+            Average value for Viacheck transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayCountViacheck">
+            <summary>
+            Today number of Viacheck transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayAmountViacheck">
+            <summary>
+            Today value of viacheck transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.mtdCountViasafe">
+            <summary>
+            Month to day value for Viasafe transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgCountViasafe">
+            <summary>
+            Average value for Viasafe transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayCountViasafe">
+            <summary>
+            Today number of Viasafe transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayAmountViasafe">
+            <summary>
+            Today value of Viasafe transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.mtdCountTopups">
+            <summary>
+            Month to day value for topups transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgCountTopups">
+            <summary>
+            Average value for topups transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayCountTopups">
+            <summary>
+            Today number of topups transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayAmountTopups">
+            <summary>
+            Today value of topups transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.mtdCountMoneyOrders">
+            <summary>
+            Month to day value for Money Orders transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgCountMoneyOrders">
+            <summary>
+            Average value for Money Orders transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayCountMoneyOrders">
+            <summary>
+            Today number of Money Orders transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayAmountMoneyOrders">
+            <summary>
+            Today value of Money Orders transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.avgCountMoneyTransfer">
+            <summary>
+            Average value for Money Transfer transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayCountMoneyTransfer">
+            <summary>
+            Today number of Money transfer transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.todayAmountMoneyTransfer">
+            <summary>
+            Today value of Money transfer transactions
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.fxLevelMajorPayer">
+            <summary>
+            fx level major payer
+            </summary>
+        </member>
+        <member name="P:Viam.SalesForceAPI.Model.Locations.ResumeData.highWaterMark">
+            <summary>
+            Higt water marck
+            </summary>
+        </member>
+    </members>
+</doc>
