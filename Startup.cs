@@ -48,8 +48,8 @@ namespace Viam.SalesForceAPI
                     Version = "v1",
                     Contact = new OpenApiContact
                     {
-                        Name = "Viamericas - SalesForce API",
-                        Email = "customerservice@viamerica.com",
+                        Name = "SalesForce API",
+                        Email = "customerservice@mail.com",
                         Url = null
                     },
                     Description = "API restfull to integration process between Viamericas and SalesForce"
